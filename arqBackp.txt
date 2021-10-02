@@ -1,0 +1,37 @@
+    char *string; 
+    string = malloc(100*sizeof(char));
+    strcat(string,turma.idTurma);
+    strcat(string," --> ");
+    strcat(string,turma.numeroDaDisciplina);
+    strcat(string," --> ");
+    strcat(string,turma.semestre);
+    strcat(string," --> ");
+    strcat(string,turma.ano);
+    strcat(string," --> ");
+    strcat(string,turma.professor);
+    strcat(string,"\n");
+    return string;
+
+
+char *string; 
+    string = malloc(100*sizeof(char));
+    strcat(string,historico.numeroDoEstudante);
+    strcat(string," --> ");
+    strcat(string,historico.idTurma);
+    strcat(string," --> ");
+    strcat(string,historico.nota);
+    strcat(string,"\n");
+    return string;
+
+
+char *string; 
+    string = malloc(100*sizeof(char));
+    strcat(string,disciplinaInsert.nomeDaDisciplina);
+    strcat(string," --> ");
+    strcat(string,disciplinaInsert.numeroDaDisciplina);
+    strcat(string," --> ");
+    strcat(string,disciplinaInsert.departamento);
+    strcat(string," --> ");
+    strcat(string,disciplinaInsert.creditos);
+    strcat(string,"\n");
+    return string;
